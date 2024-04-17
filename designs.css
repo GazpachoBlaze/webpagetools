@@ -1,0 +1,117 @@
+.container {
+    display: flex;
+}
+  
+  .column {
+    flex: 1; /* This will make the columns equally wide */
+    padding: 20px;
+    box-sizing: border-box;
+}
+  
+  #column1 {
+    background-color: #f1f1f1;
+}
+  
+  #column2 {
+    background-color: #e1e1e1;
+}
+
+#column3 {
+    background-color: #f1f1f1;
+}
+
+#column1 h1:nth-of-type(1) {
+    transform: rotate(-8deg);
+
+}
+
+#column1 h1:nth-of-type(2) {
+    transform: rotate(10deg);
+
+}
+
+#column1 h1:nth-of-type(3) {
+    transform: rotate(-10deg);
+
+}
+
+#column1 h1:nth-of-type(4) {
+    transform: rotate(10deg);
+
+}
+
+.buttonGroup {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(100px);
+}
+
+#button1 {
+    margin-bottom: 10px;
+    height: 120px;
+    width: 200px;
+}
+#button2 {
+    height: 120px;
+    width: 200px;
+}
+
+
+.homeWebsite {
+    background: none;
+    color: #FFA260;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.25s;
+    background-color: #151B29
+}
+
+.homeWebsite:hover {
+    border-color: #F1FF5C;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #F1FF5C;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+
+
+
+
+.underLine {
+    text-decoration: underline;
+}
+
+.overLine {
+    text-decoration: overline;
+}
+
+.dottedLine {
+    text-decoration: dotted underline;
+}
+
+.wavyLine {
+    text-decoration: wavy underline;
+}
+
+.solidStyle {
+    text-decoration: solid underline;
+}
+
+.doubleStyle {
+    text-decoration: double overline;
+}
+
+.dottedStyle {
+    text-decoration: dotted underline;
+}
+
+.dashedStyle {
+    text-decoration: dashed underline;
+}
+
+.wavyStyle {
+    text-decoration: wavy overline;
+}
