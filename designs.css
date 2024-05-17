@@ -44,7 +44,15 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    transform: translateY(100px);
+    transform: translateY(20px);
+}
+
+.sec1 {
+    transform: translateY(50px);
+}
+
+.sec2 {
+    transform: translateY(50px);
 }
 
 #button1 {
